@@ -7,4 +7,6 @@ wget https://github.com/NBWgamer2012/termux-minecraft-installer/raw/refs/heads/m
 unzip minecraftserver.zip
 rm minecraftserver.zip
 cd minecraftserver
-java -Xmx1000M -Xms100M -jar server.jar nogui
+wget https://github.com/NBWgamer2012/termux-minecraft-installer/raw/refs/heads/main/start.sh
+chmod +x start.sh
+./start.sh
