@@ -14,6 +14,6 @@ apk add openjdk17-jre -y
 java -version
 mkdir -p minecraft
 cd minecraft
-wget https://drive.google.com/drive/folders/1MYwwIGcewyJ_U-Tt66HbtGMWZ5WPgRJa?usp=sharing
+wget 
 cd minecraftserver
 java -Xmx1000M -Xms100M -jar server.jar nogui
