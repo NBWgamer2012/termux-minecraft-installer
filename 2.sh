@@ -1,9 +1,5 @@
 apk update
-apk upgrade
-apk add ca-certificates
-update-ca-certificates
-apk add nano
-apk add openjdk17-jre -y
+apk upgrade && apk add ca-certificates && update-ca-certificates && apk add nano && apk add openjdk17-jre -y
 java -version
 mkdir -p minecraft
 cd minecraft
