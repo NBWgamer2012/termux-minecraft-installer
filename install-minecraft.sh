@@ -14,6 +14,8 @@ apk add openjdk17-jre -y
 java -version
 mkdir -p minecraft
 cd minecraft
-wget 
+wget https://github.com/NBWgamer2012/termux-minecraft-installer/raw/refs/heads/main/minecraftserver.zip
+unzip minecraftserver.zip
+rm minecraftserver.zip
 cd minecraftserver
 java -Xmx1000M -Xms100M -jar server.jar nogui
