@@ -1,0 +1,1 @@
+java -Xmx1000M -Xms100M -jar forge-1.12.2-14.23.5.2864.jar nogui
